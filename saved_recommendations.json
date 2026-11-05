@@ -1,0 +1,68 @@
+{
+  "student_registration": "URK23CS1184",
+  "course": "24CS2506 \u2013 Building Applications using GPT-4",
+  "experiment": "Experiment 4: Personalized Recommendation System",
+  "user_profile": {
+    "name": "Arun",
+    "age": 20,
+    "background": "Computer Science",
+    "interests": "AI, Python",
+    "skill_level": "Beginner",
+    "preferred_category": "Online Courses",
+    "goal": "Learn AI",
+    "preferences": "Practical",
+    "number_of_items": 5
+  },
+  "user_feedback": "I am more interested in AI than Web Development.",
+  "detected_intent": {
+    "raw_feedback": "I am more interested in AI than Web Development.",
+    "primary_action": "Domain Specialization Shift",
+    "focus_target": "Ai",
+    "deprecated_target": "Web Development",
+    "intent_confidence": "94%",
+    "sentiment": "Constructive / Directing"
+  },
+  "total_items": 5,
+  "recommendations": [
+    {
+      "rank": 1,
+      "recommendation": "Artificial Intelligence",
+      "reason": "Directly prioritizes core AI foundations as requested in user feedback",
+      "score": "96%",
+      "category": "AI Foundations",
+      "difficulty": "Beginner"
+    },
+    {
+      "rank": 2,
+      "recommendation": "Machine Learning",
+      "reason": "Essential algorithm concepts aligning with intensified AI interest",
+      "score": "93%",
+      "category": "Machine Learning",
+      "difficulty": "Beginner"
+    },
+    {
+      "rank": 3,
+      "recommendation": "Deep Learning",
+      "reason": "Expands neural network knowledge per user's focused interest on AI",
+      "score": "90%",
+      "category": "Deep Learning",
+      "difficulty": "Intermediate"
+    },
+    {
+      "rank": 4,
+      "recommendation": "Generative AI",
+      "reason": "Cutting-edge LLM and prompt engineering applications matching AI preference",
+      "score": "87%",
+      "category": "Generative AI",
+      "difficulty": "Beginner"
+    },
+    {
+      "rank": 5,
+      "recommendation": "Computer Vision",
+      "reason": "Applies AI techniques to image processing, replacing web development topics",
+      "score": "82%",
+      "category": "Computer Vision",
+      "difficulty": "Intermediate"
+    }
+  ]
+}
